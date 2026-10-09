@@ -70,3 +70,6 @@
 - Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense Release Notes"
 - Rename all VSCODE Extension Development Intellisense files to VSCODE Extension Development Intellisense And Project from "vscode-extension-development-intellisense" to "vscode-extension-development-intellisense-and-project"
 - Add CSS styles for the responsive design of the webview from the `docsWebviewContent.js` file and `docsWebviewContentResponsiveStyle.js` file to the `docs-webview-content-responsive-styles.css` file
+
+### README Updates
+- Update README.md to reflect the renaming of the extension to "VSCODE Extension Development Intellisense And Project"

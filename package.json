@@ -1,12 +1,12 @@
 {
-  "name": "vscode-extension-development-intellisense",
-  "displayName": "VSCODE Extension Development Intellisense",
+  "name": "vscode-extension-development-intellisense-and-project",
+  "displayName": "VSCODE Extension Development Intellisense and Project",
   "description": "Launch VSCODE Extension with Development",
   "publisher": "amiralariska",
   "icon": "icon/vscode-extension-development-intellisense-logo.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amiralariska/vscode-extension-development-intellisense"
+    "url": "https://github.com/amiralariska/vscode-extension-development-intellisense-and-project"
   },
   "author": {
     "name": "Amiral Ariska"

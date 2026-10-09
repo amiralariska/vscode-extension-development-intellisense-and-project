@@ -62,19 +62,23 @@
     "Debugging"
   ],
   "activationEvents": [
-    "onCommand:vscode-extension-development-intellisense",
+    "onCommand:vscode-extension-development-intellisense-and-project",
     "onLanguage:jsonc"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-extension-development-intellisense.showDocumentation",
-        "title": "VSCODE Extension Development Intellisense: Show Documentation"
+        "command": "vscode-extension-development-intellisense-and-project.showDocumentation",
+        "title": "VSCODE Extension Development Intellisense and Project: Show Documentation"
       },
       {
-        "command": "vscode-extension-development-intellisense.showChangelog",
-        "title": "VSCODE Extension Development Intellisense: Show Release Notes(Changelog)"
+        "command": "vscode-extension-development-intellisense-and-project.showChangelog",
+        "title": "VSCODE Extension Development Intellisense and Project: Show Release Notes(Changelog)"
+      },
+      {
+        "command": "vscode-extension-development-intellisense-and-project.createtheLaunchJson",
+        "title": "VSCODE Extension Development Intellisense and Project: Create the launch.json"
       }
     ]
   },

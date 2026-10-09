@@ -67,7 +67,7 @@ ${cssResponsive}`;
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>VSCODE Extension Development Intellisense Documentation</title>
+	<title>VSCODE Extension Development Intellisense And Project Documentation</title>
 	<style>
 		${cssDocsContent}
 	</style>
@@ -75,7 +75,7 @@ ${cssResponsive}`;
 <body>
 	<div class="main-content">
 		<img src="https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/icon/vscode-extension-development-intellisense-logo.jpg" class="vscode-extension-development-intellisense-logo" alt="VSCODE Logo">
-		<h1>VSCODE Extension Development Intellisense Documentation</h1>
+		<h1>VSCODE Extension Development Intellisense And Project Documentation</h1>
 	</div>
 	${htmlDocsContent}
 </body>

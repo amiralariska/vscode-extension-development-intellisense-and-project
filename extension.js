@@ -79,10 +79,10 @@ function activate(context) {
 		}
 	});
 
-	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense.showDocumentation', () => {
+	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.showDocumentation', () => {
 		const panel = vscode.window.createWebviewPanel(
-			'vscodeExtensionDevelopmentIntellisenseDocumentation',
-			'VSCODE Extension Development Intellisense Documentation',
+			'vscodeExtensionDevelopmentIntellisenseAndProjectDocumentation',
+			'VSCODE Extension Development Intellisense and Project Documentation',
 			vscode.ViewColumn.Beside,
 			{}
 		);
@@ -97,10 +97,10 @@ function activate(context) {
 		});
 	});
 	
-	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense.showChangelog', () => {
+	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.showChangelog', () => {
 		const panel = vscode.window.createWebviewPanel(
-			'vscodeExtensionDevelopmentIntellisenseChangelog',
-			'VSCODE Extension Development Intellisense Release Notes',
+			'vscodeExtensionDevelopmentIntellisenseandProjectChangelog',
+			'VSCODE Extension Development Intellisense And Project Release Notes',
 			vscode.ViewColumn.Active,
 			{}
 		);
@@ -114,8 +114,35 @@ function activate(context) {
 			panel.webview.html = getWebviewChangelogContent(data);
 		});
 	});
+	// Make the launch.json file in the command palette
+	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.createtheLaunchJson', () => {
+		const workspaceFolders = vscode.workspace.workspaceFolders;
+		if (!workspaceFolders) {
+			vscode.window.showErrorMessage('Please open a workspace first');
+			return;
+		}
+		const workspaceFolder = workspaceFolders[0];
+		const launchJsonPath = path.join(workspaceFolder.uri.fsPath, '.vscode', 'launch.json');
+		fs.access(launchJsonPath, fs.constants.F_OK, (err) => {
+			if (err) {
+				// File doesn't exist, create it
+				fs.writeFile(launchJsonPath, JSON.stringify({
+					"version": "2.0.0",
+					"configurations": []
+				}, null, 2), (err) => {
+					if (err) {
+						vscode.window.showErrorMessage('Could not create launch.json file');
+						return;
+					}
+					vscode.window.showInformationMessage('VSCODE Launch Configuration: launch.json file created successfully');
+				});
+			} else {
+				vscode.window.showInformationMessage('VSCODE Launch Configuration: launch.json file already exists');
+			}
+		});
+	});
 
-	context.subscriptions.push(launchjsonautocomplete, docsWebview, changelogWebview);
+	context.subscriptions.push(launchjsonautocomplete, docsWebview, changelogWebview, createtheLaunchJson);
 }
 
 exports.activate = activate;

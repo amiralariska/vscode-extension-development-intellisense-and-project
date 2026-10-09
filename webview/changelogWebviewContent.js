@@ -63,7 +63,7 @@ code{
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VSCODE Extension Development Intellisense Release Notes</title>
+    <title>VSCODE Extension Development Intellisense And Project Release Notes</title>
     <style>
         ${cssChangelogContent}
     </style>
@@ -71,8 +71,8 @@ code{
 <body>
     <div class="main-changelog-content">
 		<img src="https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/icon/vscode-extension-development-intellisense-logo.jpg" class="vscode-extension-development-intellisense-logo" alt="VSCODE Logo">
-		<h1>VSCODE Extension Development Intellisense Version For VSCODE</h1>
-		<p>The History Of VSCODE Extension Development Intellisense Version</p>
+		<h1>VSCODE Extension Development Intellisense And Project Version For VSCODE</h1>
+		<p>The History Of VSCODE Extension Development Intellisense And Project Version</p>
 	</div>
 	${htmlChangelogContent}
 </body>

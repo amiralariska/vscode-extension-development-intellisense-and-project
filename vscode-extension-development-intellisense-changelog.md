@@ -64,3 +64,8 @@
 ### VSCODE Extension Development Intellisense Updates
 - Update VSCODE Extension Development Intellisense for better changes
 - Update VSCODE Extension Development Intellisense Steps in the different tutorials of the extension and Add more steps for the VSCODE Extension Development Intellisense
+
+## 0.1.6
+### VSCODE Extension Development Intellisense Updates
+- Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense Release Notes"
+- Add CSS styles for the responsive design of the webview from the `docsWebviewContent.js` file and `docsWebviewContentResponsiveStyle.js` file to the `docs-webview-content-responsive-styles.css` file

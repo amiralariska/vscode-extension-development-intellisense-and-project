@@ -87,7 +87,7 @@ function activate(context) {
 			{}
 		);
 
-		const markdowndocsPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-docs.md');
+		const markdowndocsPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-and-project-docs.md');
 		fs.readFile(markdowndocsPath, 'utf8', (err, data) => {
 			if (err) {
 				vscode.window.showErrorMessage('Could not load docs markdown file');
@@ -105,7 +105,7 @@ function activate(context) {
 			{}
 		);
 
-		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-changelog.md');
+		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-chan-and-projectgelog.md');
 		fs.readFile(markdownchangelogPath, 'utf8', (err, data) => {
 			if (err) {
 				vscode.window.showErrorMessage('Could not load changelog file');

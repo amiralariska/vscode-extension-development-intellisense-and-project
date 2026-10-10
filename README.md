@@ -25,7 +25,10 @@ For more information About VSCODE Extension Development Intellisense And Project
 Click link down below<br>
 [VSCODE Extension Development Intellisense And Project Tips](https://github.com/amiralariska/vscode-extension-development-intellisense/blob/vscode-extension-development-intellisense/vscode-extension-development-intellisense-and-project-tips.md)
 
-# Thank you for 1k install
-Thank you for 1k installs for this vscode intellisense and project extension. And thank you very much for try this vscode intellisense and project extension. And let's just go road to 10k🚀
+# Reaching more vscode installations
+We are working towards reaching more vscode installations by improving the extension's functionality and user experience. Please consider leaving a review or sharing the extension with others who might find it useful to install this extension for reaching the milestone.
+- 🥉 1k installs for the vscode extension
+- 🥈 5k installs for the vscode extension
+- 🥇 10k installs for the vscode extension
 
 **Enjoy**

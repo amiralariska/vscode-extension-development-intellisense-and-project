@@ -6,7 +6,7 @@
   "icon": "icon/vscode-extension-development-intellisense-and-project-new-logo.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amiralariska/vscode-extension-development-intellisense-and-project-new"
+    "url": "https://github.com/amiralariska/vscode-extension-development-intellisense-and-project"
   },
   "author": {
     "name": "Amiral Ariska"

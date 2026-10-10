@@ -1,12 +1,12 @@
 {
-  "name": "vscode-extension-development-intellisense-and-project",
+  "name": "vscode-extension-development-intellisense-and-project-new",
   "displayName": "VSCODE Extension Development Intellisense And Project",
   "description": "Launch VSCODE Extension with Development",
   "publisher": "amiralariska",
-  "icon": "icon/vscode-extension-development-intellisense-and-project-logo.jpg",
+  "icon": "icon/vscode-extension-development-intellisense-and-project-new-logo.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amiralariska/vscode-extension-development-intellisense-and-project"
+    "url": "https://github.com/amiralariska/vscode-extension-development-intellisense-and-project-new"
   },
   "author": {
     "name": "Amiral Ariska"
@@ -62,22 +62,22 @@
     "Debugging"
   ],
   "activationEvents": [
-    "onCommand:vscode-extension-development-intellisense-and-project",
+    "onCommand:vscode-extension-development-intellisense-and-project-new",
     "onLanguage:jsonc"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-extension-development-intellisense-and-project.showDocumentation",
+        "command": "vscode-extension-development-intellisense-and-project-new.showDocumentation",
         "title": "VSCODE Extension Development Intellisense and Project: Show Documentation"
       },
       {
-        "command": "vscode-extension-development-intellisense-and-project.showChangelog",
+        "command": "vscode-extension-development-intellisense-and-project-new.showChangelog",
         "title": "VSCODE Extension Development Intellisense and Project: Show Release Notes(Changelog)"
       },
       {
-        "command": "vscode-extension-development-intellisense-and-project.createtheLaunchJson",
+        "command": "vscode-extension-development-intellisense-and-project-new.createtheLaunchJson",
         "title": "VSCODE Extension Development Intellisense and Project: Create the launch.json"
       }
     ]

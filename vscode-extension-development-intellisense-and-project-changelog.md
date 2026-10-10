@@ -65,7 +65,7 @@
 - Update VSCODE Extension Development Intellisense for better changes
 - Update VSCODE Extension Development Intellisense Steps in the different tutorials of the extension and Add more steps for the VSCODE Extension Development Intellisense
 
-## 0.1.6
+## 0.2.0
 ### VSCODE Extension Development Intellisense Updates
 - Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense Release Notes"
 - Rename all VSCODE Extension Development Intellisense files to VSCODE Extension Development Intellisense And Project from "vscode-extension-development-intellisense" to "vscode-extension-development-intellisense-and-project"

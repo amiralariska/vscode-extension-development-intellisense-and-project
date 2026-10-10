@@ -79,7 +79,7 @@ function activate(context) {
 		}
 	});
 
-	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-new.showDocumentation', () => {
+	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-old.showDocumentation', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseAndProjectDocumentation',
 			'VSCODE Extension Development Intellisense and Project Documentation',
@@ -97,7 +97,7 @@ function activate(context) {
 		});
 	});
 	
-	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-new.showChangelog', () => {
+	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-old.showChangelog', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseandProjectChangelog',
 			'VSCODE Extension Development Intellisense And Project Release Notes',
@@ -105,7 +105,7 @@ function activate(context) {
 			{}
 		);
 
-		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-and-project-new-changelog.md');
+		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-and-project-changelog.md');
 		fs.readFile(markdownchangelogPath, 'utf8', (err, data) => {
 			if (err) {
 				vscode.window.showErrorMessage('Could not load changelog file');

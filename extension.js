@@ -79,7 +79,7 @@ function activate(context) {
 		}
 	});
 
-	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.showDocumentation', () => {
+	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-new.showDocumentation', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseAndProjectDocumentation',
 			'VSCODE Extension Development Intellisense and Project Documentation',
@@ -97,7 +97,7 @@ function activate(context) {
 		});
 	});
 	
-	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.showChangelog', () => {
+	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-new.showChangelog', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseandProjectChangelog',
 			'VSCODE Extension Development Intellisense And Project Release Notes',
@@ -105,7 +105,7 @@ function activate(context) {
 			{}
 		);
 
-		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-and-project-changelog.md');
+		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-and-project-new-changelog.md');
 		fs.readFile(markdownchangelogPath, 'utf8', (err, data) => {
 			if (err) {
 				vscode.window.showErrorMessage('Could not load changelog file');
@@ -115,7 +115,7 @@ function activate(context) {
 		});
 	});
 	// Make the launch.json file in the command palette
-	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.createtheLaunchJson', () => {
+	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-new.createtheLaunchJson', () => {
 		const workspaceFolders = vscode.workspace.workspaceFolders;
 		if (!workspaceFolders) {
 			vscode.window.showErrorMessage('Please open a workspace first');

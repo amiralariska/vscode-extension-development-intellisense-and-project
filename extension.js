@@ -79,7 +79,7 @@ function activate(context) {
 		}
 	});
 
-	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-old.showDocumentation', () => {
+	const docsWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.showDocumentation', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseAndProjectDocumentation',
 			'VSCODE Extension Development Intellisense and Project Documentation',
@@ -97,7 +97,7 @@ function activate(context) {
 		});
 	});
 	
-	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-old.showChangelog', () => {
+	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.showChangelog', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseandProjectChangelog',
 			'VSCODE Extension Development Intellisense And Project Release Notes',
@@ -115,7 +115,7 @@ function activate(context) {
 		});
 	});
 	// Make the launch.json file in the command palette
-	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-old.createtheLaunchJson', () => {
+	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project.createtheLaunchJson', () => {
 		const workspaceFolders = vscode.workspace.workspaceFolders;
 		if (!workspaceFolders) {
 			vscode.window.showErrorMessage('Please open a workspace first');

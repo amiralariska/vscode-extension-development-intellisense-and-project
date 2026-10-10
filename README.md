@@ -31,4 +31,9 @@ We are working towards reaching more vscode installations by improving the exten
 - 🥈 5k installs for the vscode extension
 - 🥇 10k installs for the vscode extension
 
+# Reverting back to the previous version(VSCODE Extension Development Intellisense v0.1.5)
+You can now revert to the previous version by installing it from the VS Code Extension or Visual Studio Marketplace by downloading it manually.<br>
+Click on the link below to download the previous version.<br>
+[Download VSCODE Extension Development Intellisense v0.1.5](https://marketplace.visualstudio.com/items?itemName=amiralariska.vscode-extension-development-intellisense)
+
 **Enjoy**

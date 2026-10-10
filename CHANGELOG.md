@@ -71,12 +71,11 @@
 - Update VSCODE Extension Development Intellisense for better changes
 - Update VSCODE Extension Development Intellisense Steps in the different tutorials of the extension and Add more steps for the VSCODE Extension Development Intellisense
 
-## 0.2.0
+## 0.1.6
 ### VSCODE Extension Development Intellisense Updates
 - Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense And Project Release Notes"
 - Rename all VSCODE Extension Development Intellisense files to VSCODE Extension Development Intellisense And Project from "vscode-extension-development-intellisense" to "vscode-extension-development-intellisense-and-project"
 - Add CSS styles for the responsive design of the webview from the `docsWebviewContent.js` file and `docsWebviewContentResponsiveStyle.js` file to the `docs-webview-content-responsive-styles.css` file
-- Fix the update command identifiers and file paths to include 'new' for documentation and changelog
 
 ### README Updates
 - Update README.md to reflect the renaming of the extension to "VSCODE Extension Development Intellisense And Project"

@@ -1,5 +1,5 @@
 {
-  "name": "vscode-extension-development-intellisense-and-project-new",
+  "name": "vscode-extension-development-intellisense-and-project-old",
   "displayName": "VSCODE Extension Development Intellisense And Project",
   "description": "Launch VSCODE Extension with Development",
   "publisher": "amiralariska",
@@ -62,22 +62,22 @@
     "Debugging"
   ],
   "activationEvents": [
-    "onCommand:vscode-extension-development-intellisense-and-project-new",
+    "onCommand:vscode-extension-development-intellisense-and-project-old",
     "onLanguage:jsonc"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-extension-development-intellisense-and-project-new.showDocumentation",
+        "command": "vscode-extension-development-intellisense-and-project-old.showDocumentation",
         "title": "VSCODE Extension Development Intellisense and Project: Show Documentation"
       },
       {
-        "command": "vscode-extension-development-intellisense-and-project-new.showChangelog",
+        "command": "vscode-extension-development-intellisense-and-project-old.showChangelog",
         "title": "VSCODE Extension Development Intellisense and Project: Show Release Notes(Changelog)"
       },
       {
-        "command": "vscode-extension-development-intellisense-and-project-new.createtheLaunchJson",
+        "command": "vscode-extension-development-intellisense-and-project-old.createtheLaunchJson",
         "title": "VSCODE Extension Development Intellisense and Project: Create the launch.json"
       }
     ]

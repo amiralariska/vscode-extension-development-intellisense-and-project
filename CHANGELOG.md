@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/icon/vscode-extension-development-intellisense-logo.jpg" alt="VSCODE Logo">
-    <h1 align="center">VSCODE Extension Development Intellisense Version For VSCODE</h1>
-    <p align="center">The History Of VSCODE Extension Development Intellisense Version</p>
+    <h1 align="center">VSCODE Extension Development Intellisense And Project Version For VSCODE</h1>
+    <p align="center">The History Of VSCODE Extension Development Intellisense And Project Version</p>
 </p>
 
 ## 0.0.1
@@ -71,7 +71,14 @@
 - Update VSCODE Extension Development Intellisense for better changes
 - Update VSCODE Extension Development Intellisense Steps in the different tutorials of the extension and Add more steps for the VSCODE Extension Development Intellisense
 
-## 0.1.6
+## 0.2.0
 ### VSCODE Extension Development Intellisense Updates
 - Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense And Project Release Notes"
+- Rename all VSCODE Extension Development Intellisense files to VSCODE Extension Development Intellisense And Project from "vscode-extension-development-intellisense" to "vscode-extension-development-intellisense-and-project"
 - Add CSS styles for the responsive design of the webview from the `docsWebviewContent.js` file and `docsWebviewContentResponsiveStyle.js` file to the `docs-webview-content-responsive-styles.css` file
+- Fix the update command identifiers and file paths to include 'new' for documentation and changelog
+
+### README Updates
+- Update README.md to reflect the renaming of the extension to "VSCODE Extension Development Intellisense And Project"
+- Add the vscode extension installs rankings for 1k, 5k, and 10k installs
+- Add the previous version download link for users who want to revert back to v0.1.5 from the VSCODE Extension Development Intellisense

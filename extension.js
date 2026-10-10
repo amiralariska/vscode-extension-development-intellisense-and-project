@@ -115,7 +115,7 @@ function activate(context) {
 		});
 	});
 	// Make the launch.json file in the command palette
-	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-new.createtheLaunchJson', () => {
+	const createtheLaunchJson = vscode.commands.registerCommand('vscode-extension-development-intellisense-and-project-old.createtheLaunchJson', () => {
 		const workspaceFolders = vscode.workspace.workspaceFolders;
 		if (!workspaceFolders) {
 			vscode.window.showErrorMessage('Please open a workspace first');
